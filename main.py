@@ -1,4 +1,11 @@
-import pygame, math
+try:
+    import pygame
+    import math
+except:
+    import install_requirements  # install packages
+
+    import pygame
+    import math
 
 width = 640
 height = 480
